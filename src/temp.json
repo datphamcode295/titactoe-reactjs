@@ -1,0 +1,462 @@
+// 20240516173540
+// https://services.syncfusion.com/react/production/api/GanttData
+
+{
+  "Items": [
+    {
+      "TaskId": 1,
+      "TaskName": "Germination",
+      "StartDate": "2021-03-01T00:00:00Z",
+      "Progress": 0,
+      "SubTasks": [
+        {
+          "TaskId": 2,
+          "TaskName": "Dry seed (caryopsis)",
+          "StartDate": "2021-03-01T00:00:00Z",
+          "Duration": 0,
+          "Progress": 0
+        },
+        {
+          "TaskId": 3,
+          "TaskName": "Seed imbibition complete",
+          "StartDate": "2021-03-01T00:00:00Z",
+          "Duration": 3,
+          "Progress": 0
+        },
+        {
+          "TaskId": 4,
+          "TaskName": "Radicle emerged from caryopsis",
+          "StartDate": "2021-03-04T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "2"
+        },
+        {
+          "TaskId": 5,
+          "TaskName": "Coleoptile emerged from caryopsis",
+          "StartDate": "2021-03-06T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "4"
+        },
+        {
+          "TaskId": 6,
+          "TaskName": "Emergence: coleoptile penetrates soil surface (cracking stage)",
+          "StartDate": "2021-03-08T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "5"
+        }
+      ]
+    },
+    {
+      "TaskId": 7,
+      "TaskName": "Leaf development",
+      "StartDate": "2021-03-10T00:00:00Z",
+      "Progress": 0,
+      "SubTasks": [
+        {
+          "TaskId": 8,
+          "TaskName": "First leaf through coleoptile",
+          "StartDate": "2021-03-10T00:00:00Z",
+          "Duration": 1,
+          "Progress": 0,
+          "Predecessor": "6"
+        },
+        {
+          "TaskId": 9,
+          "TaskName": "First leaf unfolded",
+          "StartDate": "2021-03-11T00:00:00Z",
+          "Duration": 1,
+          "Progress": 0,
+          "Predecessor": "8"
+        },
+        {
+          "TaskId": 10,
+          "TaskName": "3 leaves unfolded",
+          "StartDate": "2021-03-12T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "9"
+        },
+        {
+          "TaskId": 11,
+          "TaskName": "9 or more leaves unfolded",
+          "StartDate": "2021-03-14T00:00:00Z",
+          "Duration": 5,
+          "Progress": 0,
+          "Predecessor": "10"
+        }
+      ]
+    },
+    {
+      "TaskId": 12,
+      "TaskName": "Tillering",
+      "StartDate": "2021-03-18T00:00:00Z",
+      "Progress": 0,
+      "SubTasks": [
+        {
+          "TaskId": 13,
+          "TaskName": "Beginning of tillering: first tiller detectable",
+          "StartDate": "2021-03-18T00:00:00Z",
+          "Duration": 0,
+          "Progress": 0,
+          "Predecessor": "11"
+        },
+        {
+          "TaskId": 14,
+          "TaskName": "2 tillers detectable",
+          "StartDate": "2021-03-19T00:00:00Z",
+          "Duration": 3,
+          "Progress": 0,
+          "Predecessor": "13"
+        },
+        {
+          "TaskId": 15,
+          "TaskName": "3 tillers detectable",
+          "StartDate": "2021-03-22T00:00:00Z",
+          "Duration": 3,
+          "Progress": 0,
+          "Predecessor": "14"
+        },
+        {
+          "TaskId": 16,
+          "TaskName": "Maximum no. of tillers detectable",
+          "StartDate": "2021-03-25T00:00:00Z",
+          "Duration": 6,
+          "Progress": 0,
+          "Predecessor": "15"
+        },
+        {
+          "TaskId": 17,
+          "TaskName": "End of tillering",
+          "StartDate": "2021-03-30T00:00:00Z",
+          "Duration": 0,
+          "Progress": 0,
+          "Predecessor": "16"
+        }
+      ]
+    },
+    {
+      "TaskId": 18,
+      "TaskName": "Stem elongation",
+      "StartDate": "2021-03-30T00:00:00Z",
+      "Progress": 0,
+      "SubTasks": [
+        {
+          "TaskId": 19,
+          "TaskName": "Beginning of stem elongation: pseudostem and tillers erect, first internode begins to elongate, top of inflorescence at least 1 cm above tillering node",
+          "StartDate": "2021-03-30T00:00:00Z",
+          "Duration": 0,
+          "Progress": 0,
+          "Predecessor": "17"
+        },
+        {
+          "TaskId": 20,
+          "TaskName": "First node at least 1 cm above tillering node",
+          "StartDate": "2021-03-31T00:00:00Z",
+          "Duration": 1,
+          "Progress": 0,
+          "Predecessor": "19"
+        },
+        {
+          "TaskId": 21,
+          "TaskName": "Node 3 at least 2 cm above node 2",
+          "StartDate": "2021-04-01T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "20"
+        },
+        {
+          "TaskId": 22,
+          "TaskName": "Flag leaf just visible, still rolled",
+          "StartDate": "2021-04-03T00:00:00Z",
+          "Duration": 4,
+          "Progress": 0,
+          "Predecessor": "21"
+        },
+        {
+          "TaskId": 23,
+          "TaskName": "Flag leaf stage: flag leaf fully unrolled, ligule just visible",
+          "StartDate": "2021-04-07T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "22"
+        }
+      ]
+    },
+    {
+      "TaskId": 24,
+      "TaskName": "Booting",
+      "StartDate": "2021-04-09T00:00:00Z",
+      "Progress": 0,
+      "SubTasks": [
+        {
+          "TaskId": 25,
+          "TaskName": "Early boot stage: flag leaf sheath extending",
+          "StartDate": "2021-04-09T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "23"
+        },
+        {
+          "TaskId": 26,
+          "TaskName": "Mid boot stage: flag leaf sheath just visibly swollen",
+          "StartDate": "2021-04-11T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "25"
+        },
+        {
+          "TaskId": 27,
+          "TaskName": "Late boot stage: flag leaf sheath swollen",
+          "StartDate": "2021-04-13T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "26"
+        },
+        {
+          "TaskId": 28,
+          "TaskName": "Flag leaf sheath opening",
+          "StartDate": "2021-04-15T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "27"
+        },
+        {
+          "TaskId": 29,
+          "TaskName": "First awns visible (in awned forms only)",
+          "StartDate": "2021-04-17T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "28"
+        }
+      ]
+    },
+    {
+      "TaskId": 30,
+      "TaskName": "Inflorescence emergence, heading",
+      "StartDate": "2021-04-18T00:00:00Z",
+      "Progress": 0,
+      "SubTasks": [
+        {
+          "TaskId": 31,
+          "TaskName": "Beginning of heading: tip of inflorescence emerged from sheath, first spikelet just visible",
+          "StartDate": "2021-04-18T00:00:00Z",
+          "Duration": 0,
+          "Progress": 0,
+          "Predecessor": "29"
+        },
+        {
+          "TaskId": 32,
+          "TaskName": "20% of inflorescence emerged",
+          "StartDate": "2021-04-19T00:00:00Z",
+          "Duration": 3,
+          "Progress": 0,
+          "Predecessor": "31"
+        },
+        {
+          "TaskId": 33,
+          "TaskName": "40% of inflorescence emerged",
+          "StartDate": "2021-04-22T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "32"
+        },
+        {
+          "TaskId": 34,
+          "TaskName": "Middle of heading: half of inflorescence emerged",
+          "StartDate": "2021-04-23T00:00:00Z",
+          "Duration": 0,
+          "Progress": 0,
+          "Predecessor": "33"
+        },
+        {
+          "TaskId": 35,
+          "TaskName": "60% of inflorescence emerged",
+          "StartDate": "2021-04-24T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "34"
+        },
+        {
+          "TaskId": 36,
+          "TaskName": "80% of inflorescence emerged",
+          "StartDate": "2021-04-26T00:00:00Z",
+          "Duration": 3,
+          "Progress": 0,
+          "Predecessor": "35"
+        },
+        {
+          "TaskId": 37,
+          "TaskName": "End of heading: inflorescence fully emerged",
+          "StartDate": "2021-04-28T00:00:00Z",
+          "Duration": 0,
+          "Progress": 0,
+          "Predecessor": "36"
+        }
+      ]
+    },
+    {
+      "TaskId": 38,
+      "TaskName": "Flowering, anthesis",
+      "StartDate": "2021-04-28T00:00:00Z",
+      "Progress": 0,
+      "SubTasks": [
+        {
+          "TaskId": 39,
+          "TaskName": "Beginning of flowering: first anthers visible",
+          "StartDate": "2021-04-28T00:00:00Z",
+          "Duration": 0,
+          "Progress": 0,
+          "Predecessor": "37"
+        },
+        {
+          "TaskId": 40,
+          "TaskName": "Full flowering: 50% of anthers mature",
+          "StartDate": "2021-04-29T00:00:00Z",
+          "Duration": 5,
+          "Progress": 0,
+          "Predecessor": "39"
+        },
+        {
+          "TaskId": 41,
+          "TaskName": "spikelet have completed flowering",
+          "StartDate": "2021-05-04T00:00:00Z",
+          "Duration": 5,
+          "Progress": 0,
+          "Predecessor": "40"
+        },
+        {
+          "TaskId": 42,
+          "TaskName": "End of flowering",
+          "StartDate": "2021-05-08T00:00:00Z",
+          "Duration": 0,
+          "Progress": 0,
+          "Predecessor": "41"
+        }
+      ]
+    },
+    {
+      "TaskId": 43,
+      "TaskName": "Development of fruit",
+      "StartDate": "2021-05-08T00:00:00Z",
+      "Progress": 0,
+      "SubTasks": [
+        {
+          "TaskId": 44,
+          "TaskName": "Watery ripe: first grains have reached half their final size",
+          "StartDate": "2021-05-08T00:00:00Z",
+          "Duration": 0,
+          "Progress": 0,
+          "Predecessor": "42"
+        },
+        {
+          "TaskId": 45,
+          "TaskName": "Early milk",
+          "StartDate": "2021-05-09T00:00:00Z",
+          "Duration": 3,
+          "Progress": 0,
+          "Predecessor": "44"
+        },
+        {
+          "TaskId": 46,
+          "TaskName": "Medium milk: grain content milky, grains reached final size,still green",
+          "StartDate": "2021-05-12T00:00:00Z",
+          "Duration": 3,
+          "Progress": 0,
+          "Predecessor": "45"
+        },
+        {
+          "TaskId": 47,
+          "TaskName": "Late milk",
+          "StartDate": "2021-05-15T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "46"
+        }
+      ]
+    },
+    {
+      "TaskId": 48,
+      "TaskName": "Ripening",
+      "StartDate": "2021-05-17T00:00:00Z",
+      "Progress": 0,
+      "SubTasks": [
+        {
+          "TaskId": 49,
+          "TaskName": "Early dough",
+          "StartDate": "2021-05-17T00:00:00Z",
+          "Duration": 6,
+          "Progress": 0,
+          "Predecessor": "47"
+        },
+        {
+          "TaskId": 50,
+          "TaskName": "Soft dough: grain content soft but dry. Fingernail impression not held",
+          "StartDate": "2021-05-23T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "49"
+        },
+        {
+          "TaskId": 51,
+          "TaskName": "Hard dough: grain content solid. Fingernail impression held",
+          "StartDate": "2021-05-25T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "50"
+        },
+        {
+          "TaskId": 52,
+          "TaskName": "Fully ripe: grain hard, difficult to divide with thumbnail",
+          "StartDate": "2021-05-27T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "51"
+        }
+      ]
+    },
+    {
+      "TaskId": 53,
+      "TaskName": "Senescence",
+      "StartDate": "2021-05-29T00:00:00Z",
+      "Progress": 0,
+      "SubTasks": [
+        {
+          "TaskId": 54,
+          "TaskName": "Over-ripe: grain very hard, cannot be dented by thumbnail",
+          "StartDate": "2021-05-29T00:00:00Z",
+          "Duration": 3,
+          "Progress": 0,
+          "Predecessor": "52"
+        },
+        {
+          "TaskId": 55,
+          "TaskName": "Grains loosening in day-time",
+          "StartDate": "2021-06-01T00:00:00Z",
+          "Duration": 1,
+          "Progress": 0,
+          "Predecessor": "54"
+        },
+        {
+          "TaskId": 56,
+          "TaskName": "Plant dead and collapsing",
+          "StartDate": "2021-06-02T00:00:00Z",
+          "Duration": 4,
+          "Progress": 0,
+          "Predecessor": "55"
+        },
+        {
+          "TaskId": 57,
+          "TaskName": "Harvested product",
+          "StartDate": "2021-06-06T00:00:00Z",
+          "Duration": 2,
+          "Progress": 0,
+          "Predecessor": "56"
+        }
+      ]
+    }
+  ],
+  "Count": 10
+}
